@@ -15,7 +15,7 @@ const Footer = ({ isDarkMode }) => {
             </div>
             <div className='w-max flex items-center gap-2 mx-auto'>
                 <span className={`${isDarkMode ? "text-white" : "text-black"}`}>
-                    komalb023269@gmail.com
+                    komalbhimireddy@gmail.com
                 </span>
             </div>
             <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
