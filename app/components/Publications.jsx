@@ -7,9 +7,9 @@ const publicationsList = [
   {
     title: "Forecasting Gold Returns Volatility Over 1258–2023: The Role of Moments",
     venue: "Applied Stochastic Models in Business and Industry",
-    status: "Under Review",
-    description: "This study explores how moment-based features—such as leverage, tail risks, skewness, and kurtosis—can predict the volatility of gold returns across centuries. Using Bayesian time-varying quantile regressions and linear predictive models, we demonstrate the predictive power of higher-order moments for short- to medium-term volatility, offering insights for investors and policymakers.",
-    link: "https://ideas.repec.org/p/pre/wpaper/202421.html"
+    status: "Published",
+    description: "In this work, we looked at over 766 years of gold return data to understand how factors like leverage, tail risks, skewness, and kurtosis influence volatility. Using Bayesian time-varying quantile regressions, we found that these moments can predict short- to medium-term volatility more accurately than traditional models. The findings, confirmed with higher-frequency data, highlight useful insights for investors and policymakers navigating uncertainty.",
+    link: "https://onlinelibrary.wiley.com/doi/10.1002/asmb.70042"
   }
    
   ,

@@ -37,16 +37,19 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import PyCharm from './PyCharm.png';
 import anaconda_icon from './Anaconda_Icon.png';
-import r_studio from './r-studio.png';
 import tableau from './tableau.png';
 import jupyter from './jupyter-logo.png';
-import mysql from './mysql.png';
 import excel from './excel.jpeg';
-import kayaking from './kayaking.jpg'
-import travelling from './travelling.jpg'
-import badminton from './badminton.png'
-import songs from './songs.jpg'
-import photography from './photography.png'
+import kayaking from './kayaking.jpg';
+import travelling from './travelling.jpg';
+import badminton from './badminton.png';
+import songs from './songs.jpg';
+import photography from './photography.png';
+import python from './python.png';
+import rlogo from './Rlogo.png';
+import gcp from './gcp.png';
+import sql from './sql.png';
+import kubernetes from './kubernetes.png'
 
 
 export const assets = {
@@ -89,16 +92,19 @@ export const assets = {
     right_arrow_bold_dark,
     PyCharm,
     anaconda_icon,
-    r_studio,
     tableau,
     jupyter,
-    mysql,
     excel,
     kayaking,
     travelling,
     badminton,
     songs,
-    photography
+    photography,
+    python,
+    rlogo,
+    gcp,
+    sql,
+    kubernetes
 };
 
 export const workData = [
@@ -136,11 +142,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Programming', description: 'Python, R, SQL' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MS in Statistical Data Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects ' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'ML Engineer Intern at Suki AI' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Research', description: 'Volatility Forecasting & Public Health Research' }
 ];
 
 export const toolsData = [
-    assets.PyCharm , assets.jupyter, assets.anaconda_icon, assets.vscode, assets.r_studio, assets.mysql, assets.tableau, assets.excel
+    assets.python , assets.rlogo , assets.vscode ,assets.git, assets.gcp, assets.kubernetes
 ];

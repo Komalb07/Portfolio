@@ -39,11 +39,11 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay:0.8}}  
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo text-center sm:text-justify px-2'>
-                I am currently pursuing Masters in Statistical Data Science at San Francisco State University, where I am honing my skills in statistics, machine learning, and data analysis. 
-                My academic journey has been complemented by hands-on projects in diverse domains, including image processing, text analysis, and recommendation systems. 
-                These experiences have deepened my curiosity for data and strengthened my ability to turn complex datasets into actionable insights. Alongside my technical pursuits, 
-                I’ve also served as a Teaching Associate and Math Tutor, delivering lectures and personalized guidance in mathematics and statistics.
-                These roles strengthened my communication and deepened my ability to simplify complex concepts.
+                I graduated with a Master’s in Statistical Data Science from San Francisco State University, where I built a strong foundation in statistics, machine learning, and data analysis. 
+                Recently, I interned at Suki AI, where I designed and fine-tuned ASR pipelines using Suki's ML Platform, worked with large-scale audio/text datasets, and improved Whisper’s performance for real-world clinical workflows. 
+                Alongside industry experience, my research on volatility forecasting has been published in a peer-reviewed journal, giving me the chance to apply advanced statistical methods to century-spanning data.
+                Beyond academics and work, I’ve enjoyed teaching as a Graduate Teaching Associate and Math Tutor, helping students navigate challenging concepts in calculus and statistics. 
+                These experiences not only sharpened my technical skills but also strengthened my ability to explain complex ideas simply - something I value both inside and outside of data science.
                 </p>
                 <motion.ul
                 initial={{opacity: 0}}
@@ -76,7 +76,7 @@ const About = ({isDarkMode}) => {
                 initial={{y: 20, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.5, delay:1.3}}  
-                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
+                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I am familiar with</motion.h4>
                 <motion.ul
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
